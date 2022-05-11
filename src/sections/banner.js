@@ -11,7 +11,7 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-          Send a package from China to anywhere in the world in 4 easy steps!          </Heading>
+          Send packages from China to anywhere in the world in 4 easy steps!          </Heading>
           <Text as='p' variant="heroSecondary">
           We can deliver up to 99% of the type of goods
              </Text>

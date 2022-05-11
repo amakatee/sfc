@@ -51,8 +51,8 @@ const packages = {
       id: 2,
       name: 'USA',
       description: 'Fastest in 8 working days ',
-      priceWithUnit: '$15',
-      priceAdditional: '$50',
+      priceWithUnit: '$38',
+      priceAdditional: '$14',
       buttonText: 'Create account',
       anotherOption: 'Or Start 14 Days trail',
       points: [
