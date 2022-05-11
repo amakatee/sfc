@@ -10,27 +10,27 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'Contact customer service',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Contact customer service for consultation, so we choose best plan for your type of goods.',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'Mail the goods',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Mail the goods to adress of our warehouse and provide track codes of each package (if there is a few)',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'apply for packing and measuring',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+    'After you see all packages arrived at warehouse apply for packing and measuring all of them. ',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Expect your package',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Proccesd payment, track your package with new track code!',
   },
 ];
 
@@ -39,8 +39,8 @@ export default function WorkFlow() {
     <section sx={styles.workflow}> 
     <Container>
       <SectionHeader
-      slogan="Whats the function "
-      title="meet the features"
+      slogan="How does it Work? "
+      // title="meet the features"
   
       isWhite={true}
       />
@@ -64,7 +64,7 @@ export default function WorkFlow() {
 const styles = {
   workflow: {
     backgroundColor: 'primary',
-    backgroundImage: `url(${PatternBG})`,
+    // backgroundImage: `url(${PatternBG})`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: 'center center',
     backgroundSize: 'cover',

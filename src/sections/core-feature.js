@@ -17,7 +17,7 @@ const data = {
 export default function CoreFeature() {
   return (
    <section sx={{variant: 'section.coreFeature'}}>
-    <Container sx={styles.containerBox}>
+    {/* <Container sx={styles.containerBox}>
       <Box sx={styles.contentBox}>
         <TextFeature 
           subTitle={data.subTitle}
@@ -33,7 +33,7 @@ export default function CoreFeature() {
           <Image src={shapePattern} alt="Shape"/>
         </Box>
       </Box>
-    </Container>
+    </Container> */}
    </section>
   );
 }

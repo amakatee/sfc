@@ -38,13 +38,13 @@ const data = {
 export default function ServiceSection() {
   return (
     <section sx={{variant: 'section.services'}}>
-      <Container sx={styles.containerBox}>
+      {/* <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={ServiceThumb} alt='Thumbnail'></Image>
         
 
         </Box>
-      </Container>
+      </Container> */}
     </section>
   );
 }

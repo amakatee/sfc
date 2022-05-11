@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Image } from 'theme-ui';
+import { jsx, Image, Text } from 'theme-ui';
 import { Link } from 'components/link';
 
 export default function Logo({ src, ...rest }) {
@@ -11,10 +11,15 @@ export default function Logo({ src, ...rest }) {
       display:'flex',
       cursor:'pointer',
       mr: 15,
+      textDecoration:'none',
+      color:"black",
+      fontSize:'1.2rem',
+      letterSpacing:'.7px'
     }} 
     {...rest}
     >
-      <Image src={src} alt="landing logo" />
+      <Text >SFChina</Text>
+      {/* <Image src={src} alt="landing logo" /> */}
       
     </Link>
   );

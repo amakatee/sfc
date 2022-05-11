@@ -13,34 +13,32 @@ const data = [
     id: 1,
     imgSrc: Performance,
     altText: 'Fast Performance',
-    title: 'Fast Performance',
+    title: 'Privacy',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'We do not require any of your personal information. It takes 2 minutes to set up an account and start shipping goods.',
   },
   {
     id: 2,
     imgSrc: Partnership,
     altText: 'Partnership deal',
-    title: 'Partnership deal',
+    title: 'Convinience',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
-  },
+       'Can send a parcel to your friend, customer or to your door, providing help in managing your oder from Taobao or other Mainland sellers '  },
   {
     id: 3,
     imgSrc: Subscription,
     altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    title: 'Easy Pay',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
-  },
-  {
-    id: 4,
-    imgSrc: Support,
-    altText: 'Customer Support',
-    title: 'Customer Support',
-    text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
-  },
+     'You Can pay from any part of the world, just have access to your crypto wallet'  },
+  // {
+  //   id: 4,
+  //   imgSrc: Support,
+  //   altText: 'Customer Support',
+  //   title: 'Support',
+  //   text:
+  //     'We help you to manage your oder from Taobao and any other ',
+  // },
 ];
 
 export default function KeyFeature() {
@@ -48,10 +46,10 @@ export default function KeyFeature() {
    <section sx={{ variant: 'section.keyFeature'}} id='feature'>
       <Container>
         <SectionHeader
-        slogan="Whats the function"
-        title=" Meet the features"
+        slogan="Why to choose Us ?"
+        title=""
          />
-         <Grid xs={styles.grid}>
+         <Grid sx={styles.grid} > 
            {data.map((item) => (
              <FeatureCardColumn
              key={item.id}
@@ -60,6 +58,7 @@ export default function KeyFeature() {
              title={item.title}
              text={item.text}
              src={item.imgSrc}
+            
              />
            ))}
          </Grid>
@@ -83,12 +82,14 @@ const styles = {
       '50px 40px',
       '55px 90px',
     ],
+    
     gridTemplateColumns: [
       'repeat(1,1fr)',
       null,
       'repeat(2,1fr)',
       null,
-      'repeat(4,1fr)',
+      'repeat(3,1fr)',
     ],
   },
+ 
 };

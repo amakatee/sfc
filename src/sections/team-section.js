@@ -179,7 +179,8 @@ const data = [
 
 export default function TeamSection() {
   return (
-    <h1>Team Section</h1>
+    // <h1>Team Section</h1>
+    <></>
   );
 }
 

@@ -222,7 +222,7 @@ export default function Package() {
       <Container>
         <SectionHeader
         slogan='Pricing Plan'
-        title="Choose your pricing plan" 
+        title="We ship worldwide , contact us for a specific destination " 
         />
       <Flex sx={styles.buttonGroup}>
         <Box sx={styles.buttonGroupInner}>

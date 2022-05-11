@@ -13,25 +13,25 @@ const data = [
     id: 1,
     imgSrc: Performance,
     altText: 'Fast Performance',
-    title: 'Fast Performance',
+    title: 'Rigister with Email',
     text:
-      'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
+      'Contact customer service for consultation, so we choose best plan for your type of goods.',
   },
   {
     id: 2,
     imgSrc: Partnership,
     altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    title: '',
     text:
-      'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.',
-  },
+    'Mail the goods to adress of our warehouse and provide track codes of each package(if there is a few)'
+   },
   {
     id: 3,
     imgSrc: Subscription,
     altText: 'Partnership deal',
     title: 'Partnership deal',
     text:
-      'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
+      'After you see all packages arrived at warehouse apply for packing and scaling them all together ',
   },
   {
     id: 4,
@@ -39,13 +39,14 @@ const data = [
     altText: 'Customer Support',
     title: 'Customer Support',
     text:
-      'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.',
+      'Proccesd payment and expect your package!',
   },
 ];
 
 export default function Feature() {
   return (
-   <h1>Feature</h1>
+  <></>
+  //  <h1>Feature</h1>
   );
 }
 

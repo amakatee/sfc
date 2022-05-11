@@ -11,16 +11,15 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Ship yours Worldwide favorite Items
-          </Heading>
+          Send a package from China to anywhere in the world in 4 easy steps!          </Heading>
           <Text as='p' variant="heroSecondary">
-            4 steps only
+          We can deliver up to 99% of the type of goods
              </Text>
-             <Button variant="primary">Explore</Button>
+             {/* <Button variant="primary">Explore</Button> */}
         </Box>
-        {/* <Box sx={styles.banner.imageBox}>
+        <Box sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt="banner" />
-        </Box> */}
+        </Box>
       </Container>
     </section>
   );
@@ -40,7 +39,7 @@ const styles = {
       height: '100%',
       width: '100%',
       zIndex: -1,
-      backgroundImage: `url(${ShapeLeft})`,
+      // backgroundImage: `url(${ShapeLeft})`,
       backgroundRepeat: `no-repeat`,
       backgroundPosition: 'bottom left',
       backgroundSize: '36%',
@@ -53,7 +52,7 @@ const styles = {
       height: '100%',
       width: '100%',
       zIndex: -1,
-      backgroundImage: `url(${ShapeRight})`,
+      // backgroundImage: `url(${ShapeRight})`,
       backgroundRepeat: `no-repeat`,
       backgroundPosition: 'bottom right',
       backgroundSize: '32%',
